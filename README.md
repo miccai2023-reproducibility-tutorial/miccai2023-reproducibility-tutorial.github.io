@@ -1,2 +1,6 @@
-# miccai2023-reproducibility-tutorial.github.io
-Website promoting and describing the reproducibility tutorial in MICCAI 2023
+Thanks for downloading this template!
+
+Template Name: Bikin
+Template URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
+Author: BootstrapMade.com
+License: https://bootstrapmade.com/license/
