@@ -19,7 +19,7 @@
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">  <!-- assets/vendor/bootstrap/css/bootstrap.min.css -->
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
@@ -48,6 +48,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
+                <li><a class="nav-link scrollto " href="#keynote">Keynote</a></li>
                 <li><a class="nav-link scrollto " href="#program">Program</a></li>
                 <li><a class="nav-link scrollto" href="#team">Organizers</a></li>
             </ul>
@@ -80,7 +81,8 @@
                     Reproducibility is a key component of science, as the replication of findings is the process
                     by which they become knowledge. It is widely considered that many fields of science, including
                     medical imaging, are undergoing a reproducibility crisis. This has led to the publications of
-                    various guidelines to improve research reproducibility, such as the checklist proposed by MICCAI.
+                    various guidelines to improve research reproducibility, such as the
+                    <a href="https://miccai2021.org/files/downloads/MICCAI2021-Reproducibility-Checklist.pdf" target="_blank">checklist proposed by MICCAI</a>.
                     On top of a clear description of the materials, methods and results, the checklist includes
                     several items related to the code, which correspond to the elements of the ML Code Completeness
                     Checklist in use at NeurIPS. If such checklists constitute useful guides, some users may need
@@ -107,16 +109,97 @@
         </div>
     </section><!-- End About Section -->
 
+    <!-- ======= Keynote Section ======= -->
+    <section id="keynote" class="team" data-aos="fade-up">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Keynote</h2>
+            </div>
+
+                <div class="row content align-items-center justify-content-center">
+                    <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-right"
+                     data-aos-delay="100">
+                    <div class="member">
+                        <img src="assets/img/team/koustuv-sinha.jpg" class="img-fluid" alt="">
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>Dr. Koustuv Sinha</h4>
+                                <span>Meta AI New York - Fundamental AI Research</span>
+                            </div>
+                            <div class="social">
+                                <a href="mailto:koustuv.sinha@mail.mcgill.ca"><i class="bi bi-envelope"></i></a>
+                                <a href="https://koustuvsinha.com"><i class="bi bi-briefcase"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-5 align-items-center justify-content-center" data-aos="fade-left" data-aos-delay="100">
+                        <p style="text-align:left">Koustuv Sinha is a Research Scientist at Meta AI New York, in the
+                            Fundamental AI Research (FAIR) team. I did my PhD from McGill University
+                            (School of Computer Science) and Mila (Quebec AI Institute), supervised
+                            by Joelle Pineau, in the wonderful city of Montreal, QC, Canada. He spent a
+                            significant portion of his PhD being a Research Intern (STE) at Meta AI (FAIR), Montreal.</p>
+
+                        <p style="text-align:left">He now is an associate editor of ReScience C, a peer reviewed journal promoting
+                            reproducible research, and he is the lead organizer of the annual Machine Learning
+                            Reproducibility Challenge. His work has been covered by several news outlets in the past,
+                            including Nature, VentureBeat, InfoQ, DailyMail and Hindustan Times.</p>
+                    </div>
+                </div>
+                <br>
+
+        </div>
+
+
+    </section><!-- End Keynote Section -->
+
     <!-- ======= Program Section ======= -->
     <section id="program" class="features" data-aos="fade-up">
         <div class="container">
 
             <div class="section-title">
-                <h2>Program</h2>
-
+                <h2>Program (first draft - might be updated)</h2>
             </div>
 
-            <div>TBA</div>
+            <div>
+                <div class="table-responsive">
+                    <table class="table table-borderless">
+                        <tbody>
+                        <tr>
+                            <td class="mytb">45min </td>
+                            <td class="mytb"><a href="#keynote">Keynote Koustuv Sinha (Meta AI New York)</a></td>
+                        </tr>
+                        <tr>
+                            <td class="mytb">45min </td>
+                            <td class="mytb">Presentation of the MICCAI reproducibility checklist: practical tips to achieve reproducibility</td>
+                        </tr>
+                            <td class="mytb">15min </td>
+                            <td class="mytb">☕ Coffee Break</td>
+                        </tr>
+                        <tr>
+                            <td class="mytb">1h15 </td>
+                            <td class="mytb">Critical review tutorial (in teams)</td>
+                        </tr>
+                        <tr>
+                            <td class="mytb"></td>
+                            <td class="oral"> During this tutorial, participants will be teamed up to conduct critical reviews of pairs of (fake) papers and GitHub repos all performing the same task.
+                                Each reproducibility flaw correctly identified will score points. At the end of the session the team with the highest score will earn a team prize!
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="mytb">0h30 </td>
+                            <td class="mytb">Reproducibility tutorial (solo)</td>
+                        </tr>
+                        <tr>
+                            <td class="mytb"></td>
+                            <td class="oral"> During this last part, the participants will have access to a paper and the corresponding repo which meets all the requirements of the <a href="https://miccai2021.org/files/downloads/MICCAI2021-Reproducibility-Checklist.pdf" target="_blank">MICCAI reproducibility checklist</a>.
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
         </div>
 
@@ -171,7 +254,7 @@
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>Dr. Elina Thibeau-Sutre</h4>
-                                <span>Mathematics of Imaging and AI - University of Twente</span>
+                                <span>University of Twente - Mathematics of Imaging and AI</span>
                             </div>
                             <div class="social">
                                 <a href="mailto:e.thibeau-sutre@utwente.nl"><i class="bi bi-envelope"></i></a>
