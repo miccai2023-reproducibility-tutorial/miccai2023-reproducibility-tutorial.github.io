@@ -51,6 +51,7 @@
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
                 <li><a class="nav-link scrollto " href="#keynote">Keynote</a></li>
                 <li><a class="nav-link scrollto " href="#program">Program</a></li>
+                <li><a class="nav-link scrollto " href="#exercise1">Exercise 1</a></li>
                 <li><a class="nav-link scrollto" href="#team">Organizers</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -208,6 +209,141 @@
 
     </section><!-- End Program Section -->
 
+    <!-- ======= Exercise 1 Section ======= -->
+    <section id="exercise1" class="features" data-aos="fade-up">
+        <div class="container">
+            <div class="section-title">
+                <h2>Exercise 1 - Critical review tutorial</h2>
+            </div>
+
+            <p style="text-align:left">
+                The goal of this first exercise is to fill an adapted version of the MICCAI reproducibility checklist
+                for different fake papers.
+
+            </p>
+
+            <h3>Content of the papers</h3>
+
+            <p style="text-align:left">
+                All the papers have the same content: their objective is to train a deep learning network to
+                perform a binary classification, Alzheimer's disease patients VS cognitively normal participants,
+                using brain T1-MRI.
+            </p>
+
+            <img src="assets/img/figures/exercise1.png" class="img-fluid hero-img" alt="" data-aos="zoom-in"
+                 data-aos-delay="150">
+            <br>
+            <br>
+
+            <p style="text-align:left">
+
+                They also all have the same organisation. The abstract and introduction sections are all identical and
+                do not include any useful information, except the link to the corresponding GitHub repo at the end
+                of the introduction.
+            </p>
+
+            <div class="alert-warning">
+                <span>&#9888;</span> The task tackled by these papers is not scientifically interesting. The point of this exercise is
+                only to evaluate how reproducible they might be.
+
+            </div>
+
+            <br>
+
+            <h3>Content of the checklist</h3>
+            <p style="text-align:left">
+                For all papers, the participants have to fill the same checklist. Each section of the checklist is related
+                to one or more sections of the article or the GitHub repo.
+            </p>
+
+            <ol class="faq-list">
+
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#checklist1" style="font-size: large">Data set - <em>Materials, GitHub repo</em> <i class="bi bi-chevron-down icon-show"></i></div>
+                <div id="checklist1" class="collapse" data-bs-parent=".faq-list">
+                    <ul>
+                        <li><b>Availability</b> - Open-source / Semi-public / On request / Not findable</li>
+                        <li><b>Statistics on the selected participants</b> - Exhaustive / Minor / None</li>
+                        <li><b>Selection of participants</b> - Reproducible / Described / Not described</li>
+                        <li><b>Reference (citation / link)</b> - Yes / No</li>
+
+                    </ul>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#checklist2" style="font-size: large">Code - <em>GitHub repo</em> <i class="bi bi-chevron-down icon-show"></i></div>
+                <div id="checklist1" class="collapse" data-bs-parent=".faq-list">
+                    <ul>
+                        <li><b>Availability</b> - Open-source / Semi-public / On request / Not findable</li>
+                        <li><b>Dependencies</b> - Fixed versions / No versioning / None</li>
+                        <li><b>Training code</b> - All experiments / Some experiments / None</li>
+                        <li><b>Evaluation code</b> - All experiments / Some experiments / None</li>
+                        <li><b>Explainability code</b> - All experiments / Some experiments / None</li>
+                        <li><b>Pre-trained models</b> - Open-source / On request / None</li>
+                        <li><b>Minimal list of commands to run the code</b> - All experiments / Some experiments / None</li>
+                    </ul>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#checklist3" style="font-size: large">Computational setup - <em>Methods</em> <i class="bi bi-chevron-down icon-show"></i></div>
+                <div id="checklist1" class="collapse" data-bs-parent=".faq-list">
+                    <ul>
+                        <li><b>Runtime</b> - Yes / No / Not applicable</li>
+                        <li><b>Memory footprint</b> - Yes / No / Not applicable</li>
+                        <li><b>Computing infrastructure</b> - Yes / No / Not applicable</li>
+                    </ul>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#checklist4" style="font-size: large">Training - <em>Methods, Results</em> <i class="bi bi-chevron-down icon-show"></i></div>
+                <div id="checklist1" class="collapse" data-bs-parent=".faq-list">
+                    <ul>
+                        <li><b>Hyperparameter search</b> - All experiments / Some experiments / None</li>
+                        <li><b>Hyperparameter values</b> - All experiments / Some experiments / None</li>
+                        <li><b>Parameter sensitivity</b> - Exhaustive analysis / Minor analysis / None</li>
+                    </ul>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#checklist5" style="font-size: large">Evaluation - <em>Methods, Results, Conclusion</em> <i class="bi bi-chevron-down icon-show"></i></div>
+                <div id="checklist1" class="collapse" data-bs-parent=".faq-list">
+                    <ul>
+                        <li><b>Evaluation metrics</b> - Reproducible / Described / Not described</li>
+                        <li><b>Error bars / confidence intervals</b> - Yes / No / Not applicable</li>
+                        <li><b>Statistical significance</b> - Yes / No / Not applicable</li>
+                        <li><b>Study of failure modes</b> - Yes / No / Not applicable</li>
+                        <li><b>Clinical significance</b> - Discussed / Not discussed / Not applicable</li>
+                    </ul>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#checklist6" style="font-size: large">Explainability - <em>Methods, Results</em> <i class="bi bi-chevron-down icon-show"></i></div>
+                <div id="checklist1" class="collapse" data-bs-parent=".faq-list">
+                    <ul>
+                        <li><b>Mathematical setting</b> - Reproducible / Described / Not described</li>
+                        <li><b>Description of assumptions</b> - Yes / No</li>
+                        <li><b>Analysis</b> - Quantitative / Qualitative / None</li>
+                    </ul>
+                </div>
+              </li>
+            </ol>
+            <br>
+
+        <h3>Links to the checklists</h3>
+            The papers will be shared on the day of the tutorial, but you can already find the checklists here:
+            <ul>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScjwQB2-A0-kN376_jOwmU-fjRx3isq8fikd46yR3QOJchDfg/viewform?usp=pp_url">Paper 1</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd89Mw87_dEu1pB2Fp-IN41nS7bjJ4o0OYUAC_XNrjzhD70OQ/viewform?usp=pp_url">Paper 2</a></li>
+            </ul>
+        </div>
+
+    </section><!-- End About Section -->
+
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
         <div class="container" data-aos="fade-up">
@@ -249,7 +385,6 @@
                     </div>
                 </div>
 
-
                 <div class="col-xl-3 col-lg-3 col-md-3" data-aos="fade-up"
                      data-aos-delay="100">
                     <div class="member">
@@ -269,6 +404,8 @@
                     </div>
 
                 </div>
+
+            </div>
 
         </div>
     </section><!-- End Team Section -->
